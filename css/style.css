@@ -152,3 +152,24 @@ body{
     font-weight: 700;
     margin-top: 40px;
 }
+
+.wrapper-content {
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(221, 213, 213);
+}
+
+.wrapper-content p {
+    font-weight: 500;
+    color: #808080;
+}
+
+.wrapper-content input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #FF9C35;
+    margin-bottom: 20px;
+}
