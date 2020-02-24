@@ -1,77 +1,64 @@
-.container {
-    margin-bottom: 100px;
+body{
+    font-family: 'Poppins';
+}
+#navbar-wrapper{
+    margin-top: 20px;
 }
 
-.bg-banner{
-    background-color: #FBE7E8;
+.navbar-brand img{
+    width: 130px;
 }
 
-.carousel-item{
-    padding: 0px 40px;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
 }
 
-.price {
-    color: #FF136F;
-    margin-bottom: 20px;
-    font-size: 40px;
+#carousel-wrapper {
+    background-image: url(../images/banner-products/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
-.price-button {
-    background-image: linear-gradient(to bottom, #FF4B93, #FF1872);
+.carousel-item {
+    padding: 0px 40px 60px 40px;
+}
+
+.carousel-indicators li {
+    background-image: linear-gradient(to left, #FF9C35 , #FFD019);
+    height: 8px;
+    width: 25px;
+    border: none;
+    border-radius: 20%;
+}
+
+.carousel-content h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;;
+}
+
+.carousel-content p {
+    color: #707070;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+.buy-now-button {
+    background: #000;
     color: #fff;
-    padding: 7px 14px;
     border: none;
-    font-weight: 500;
-    border-radius: 5px;
-}
-
-.cat1{
-    background-color: #FFA500;
-    padding: 10px 0px;
+    padding: 10px 20px;
+    text-transform: uppercase;
     border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
-.cat2{
-    background-color: #DA70D6;
-    padding: 10px 0px;
-    border-radius: 10px;
-}
-
-.cat3{
-    background-color: #0000FF;
-    padding: 10px 0px;
-    border-radius: 10px;
-}
-
-.categories img{
-    width: 100px;
-}
-
-.card{
-    box-shadow: 5px 5px 10px lightgray;
-    border-radius: 5px;
-}
-
-.card-footer {
-    border: none;
-    background: #fff;
-}
-
-.wrapper-content{
-    height: 300px;
-    background: #FCEAE8;
-}
-
-.wrapper-content input {
-    display: block;
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 20px;
-}
-
-.wrapper-content p{
-    font-weight: 500;
-    color: #808080;
+.product-heading {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
+    font-weight: 900;
+    font-size: 43px;
+    color: #f7f6f6;
 }
