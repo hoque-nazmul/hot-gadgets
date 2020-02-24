@@ -115,3 +115,40 @@ body{
     color: #707070;
     font-size: 15px;
 }
+
+.head-underline {
+    width: 99px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #FF9C35 , #FFD019);
+}
+
+.category-header {
+    margin-bottom: 60px;
+}
+
+.cat-header-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.cat-item {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(233, 226, 226);
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+}
+
+.cat-item img {
+    width: 100px;
+    height: auto;
+}
+
+.cat-item h3 {
+    font-size: 18PX;
+    font-weight: 700;
+    margin-top: 40px;
+}
